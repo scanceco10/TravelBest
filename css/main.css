@@ -1,0 +1,70 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*   Aplico map para definir la paleta de colores del proyecto */
+/* SCSS HEX */
+/*   Cree un mixin para definir las propiedades del botón para registrarse en la página club.html con animación hover */
+/*   Apliqué un extend para definir las propiedes de las imágenes en las tarjetas de la sección "Canjeá tus puntos ¡y viví viajando!" */
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.navbarClub {
+  background-image: url(../images/header1.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding-left: 2em;
+  color: black;
+}
+
+.navbarClub #club-register {
+  border-radius: 20px;
+  border: 1px solid #E4E3D3;
+  background-color: #E4E3D3;
+  width: 180px;
+  padding: 0.7em;
+  color: #2D3047;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.navbarClub #club-register:hover {
+  background-color: #0D6EFD;
+  color: white;
+  border-color: #0D6EFD;
+}
+
+small {
+  font-weight: 500;
+  text-shadow: 2px 2px #2D3047;
+}
+
+@media (min-width: 400px) {
+  .navbarClub {
+    height: 100vh;
+    background-position: center;
+  }
+}
+
+/*   Cree un mixin para definir los breakpoints y utilizarlos en el proyecto full-responsive*/
+/*# sourceMappingURL=main.css.map */
